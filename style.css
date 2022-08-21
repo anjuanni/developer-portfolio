@@ -1,19 +1,56 @@
-body{
+body {
     font-family: 'Rubik', sans-serif;
+    margin: 0;
 }
-h1{
-font-weight: 700;
+
+.flexible-items {
+    display: flex;
+    height: 500px;
+    margin-bottom: 100px;
 }
-h3{
-    font-size: 20px;
+
+.top-banner {
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
 }
-span{
+
+.half-width {
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.banner-image {
+    width: 80%;
+}
+
+.dream-area {
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+h1 {
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.orange-color {
     color: coral;
 }
-p{
+
+p {
     color: gray;
+    font-size: 18px;
+    line-height: 25px;
 }
-.anchor-button{
+
+.anchor-button {
     text-decoration: none;
     padding: 10px 30px;
     color: white;
