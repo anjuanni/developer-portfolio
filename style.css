@@ -31,9 +31,33 @@ body {
 
 }
 
+/* .erperience-area {
+    height: 200px;
+} */
+
+.card {
+    padding: 0% 2%;
+    /* border: 1px solid gray; */
+    height: 350px;
+    margin-left: 30px;
+    width: 40%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+#full-stack {
+    border-left: 7px solid tomato;
+}
+
+#baby-dev {
+    border-left: 7px solid blue;
+}
+
 h1 {
     font-weight: 800;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+
 }
 
 h3 {
@@ -48,6 +72,7 @@ p {
     color: gray;
     font-size: 18px;
     line-height: 25px;
+    text-align: justify;
 }
 
 .anchor-button {
